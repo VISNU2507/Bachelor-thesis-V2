@@ -35,7 +35,6 @@ Thesis code - Kopi/
 ├── R_peak_detection/                   # 🔍 R-peak detection and validation utilities
 │   ├── peak_detection.ipynb            # Notebook for R-peak detection performance
 │   ├── pan_tompkins.py                 # Pan-Tompkins algorithm implementation
-│   ├── engzee_tompkins.py              # Alternate R-peak detection method
 │   ├── diamonds_definitions.py         # Shared parameters for detection scripts
 
 ├── Breath_Segmentation/                # 📊 Breath phase detection + respiratory metric prediction
