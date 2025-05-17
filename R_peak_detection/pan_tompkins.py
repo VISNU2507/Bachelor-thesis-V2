@@ -1,6 +1,6 @@
 
 import numpy as np
-from scipy.signal import butter, filtfilt, iirnotch, medfilt, find_peaks
+from scipy.signal import butter, filtfilt, find_peaks
 from scipy.interpolate import interp1d
 
 class PanTompkins:
