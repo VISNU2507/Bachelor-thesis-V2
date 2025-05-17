@@ -14,7 +14,6 @@ This project is part of the **DIAMONDS** initiative — a novel system for **non
 
 The full processing pipeline transforms raw diaphragm EMG signals into respiratory insights via:
 
-- ECG extraction using deep learning
 - R-peak detection
 - EDR (ECG-Derived Respiration) signal computation
 - Breath segmentation and classification
