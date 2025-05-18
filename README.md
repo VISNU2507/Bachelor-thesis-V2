@@ -24,31 +24,31 @@ The full processing pipeline transforms raw diaphragm EMG signals into respirato
 
 ```
 Thesis code - Kopi/
-├── Signal_all_code.ipynb               # 🧠 Core notebook: defining ECG signal, detecting R-peaks, generating EDR signals, plotting, feature table creation
+├── Signal_all_code.ipynb               # Core notebook: defining ECG signal, detecting R-peaks, generating EDR signals, plotting, feature table creation
 
-├── preprocessing.py                    # 🧪 EDR signal creation and filtering logic
+├── preprocessing.py                    # EDR signal creation and filtering logic
 
-├── golden_analysis.py                  # 📉 Bland–Altman and MAE/R² comparison against spirometry
+├── golden_analysis.py                  # Bland–Altman and MAE/R² comparison against spirometry
 
-├── interpolated_signal_view_2.py       # 🖼️ Signal interpolation and visualization tool
+├── interpolated_signal_view_2.py       # 🖼Signal interpolation and visualization tool
 
-├── R_peak_detection/                   # 🔍 R-peak detection and validation utilities
+├── R_peak_detection/                   # R-peak detection and validation utilities
 │   ├── peak_detection.ipynb            # Notebook for R-peak detection performance
 │   ├── pan_tompkins.py                 # Pan-Tompkins algorithm implementation
 │   ├── diamonds_definitions.py         # Shared parameters for detection scripts
 
-├── Breath_Segmentation/                # 📊 Breath phase detection + respiratory metric prediction
+├── Breath_Segmentation/                # Breath phase detection + respiratory metric prediction
 │   ├── Phase 1/                        
 │   │   └── breath_detection.py         # Peak/trough-based adaptive segmentation
 │   │   └── phase_1_validation.ipynb    # Validation with Bland–Altman plots
 │   └── Phase 2/                         
 │       └── phase_2_pipeline.ipynb      # ML prediction pipeline for respiratory features
 
-├── Breath_Classification/              # 🗂️ Final stage: breath-type classification
+├── Breath_Classification/              # Final stage: breath-type classification
 │   ├── breath_classification_pipeline.ipynb   # XGBoost classification pipeline
 │   ├── features_classification.py             # Feature extraction module
 
-├── Datafiles/                          # 📁 [Excluded] Due to GDPR restrictions
+├── Datafiles/                          # [Excluded] Due to GDPR restrictions
     ⚠️ Contains subject-level data, feature tables, trained models, and evaluation metrics — **not included in this repository**.
 ```
 
