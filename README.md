@@ -64,5 +64,4 @@ Includes:
 - Evaluation metrics
 ---
 
-> 🩻 This work is part of the DIAMONDS project — *Diaphragmatic Monitoring of Diseases using a Shirt*.
 
